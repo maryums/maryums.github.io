@@ -34,6 +34,7 @@ h1 {
 header {
   height: 100vh;
   color: #f3edea;
+  background-color: #283D3D;
   background: url(../assets/images/forest.jpeg) no-repeat;
   background-size: cover;
 }
@@ -82,8 +83,8 @@ header .hero .typewriter {
   /* Adjust as needed */
   font-size: 2em;
   font-weight: 700;
-  -webkit-animation: typing 5.5s steps(40, end), blink-caret 0.75s step-end infinite;
-          animation: typing 5.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  -webkit-animation: typing 2.5s steps(40, end), blink-caret 0.75s step-end infinite;
+          animation: typing 2.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 @-webkit-keyframes typing {
