@@ -34,7 +34,8 @@ h1 {
 header {
   height: 100vh;
   color: #f3edea;
-  background: url(../assets/images/forest_dark.png) no-repeat center center fixed;
+  background: url(../assets/images/forest.jpeg) no-repeat;
+  background-size: cover;
 }
 
 header .picture {
@@ -190,7 +191,7 @@ header .hero .neon {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 80px;
+  width: 50px;
   margin: 30px 40px;
 }
 
@@ -271,6 +272,13 @@ header .hero .neon {
   margin: auto;
   margin-top: 50px;
   width: 80%;
+}
+
+.contact-container img {
+  width: 150px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .contact-container .contact-items {

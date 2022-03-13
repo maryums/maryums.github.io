@@ -40,7 +40,8 @@ h1 {
 header {
     height: 100vh;
     color: $light-color;
-    background: url(../assets/images/forest_dark.png) no-repeat center center fixed;
+    background: url(../assets/images/forest.jpeg) no-repeat;
+    background-size: cover;
     .picture {
         align-self: center;
         
@@ -120,8 +121,6 @@ header {
         p {
             text-align: center;
         }
-    
-
     }
 
 .skills-container {
@@ -130,7 +129,6 @@ header {
     margin: auto;
     margin-top: 50px;
     width: 80%;
-
 
     ul {
         display: flex;
@@ -146,7 +144,7 @@ header {
             display: flex;
             flex: 1 0 21%; 
             flex-direction: column;
-            width: 80px;
+            width: 50px;
             margin: 30px 40px;
         }
 
@@ -192,8 +190,6 @@ header {
             text-align: center;
         }
     
-
-
         img {
             width: 100%;
 
@@ -204,12 +200,9 @@ header {
             text-align: center;
         }
       
-
         p {
             align-self: center;
         }
-
-
     }
 
 }
@@ -219,6 +212,11 @@ header {
     margin: auto;
     margin-top: 50px;
     width: 80%;
+
+    img {
+        width: 150px;
+        align-self: center;
+    }
 
     .contact-items {
 
