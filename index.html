@@ -185,9 +185,10 @@
                             app to test the users typing speed. UseState
                             and useEffect are used alongside vanilla javascript in order to capture how many words are
                             typed as setTimeout counts down the seconds. A light/dark mode is created with useContext
-                            and useRef brings the textbook to focus once the game starts. An update to this app would be
-                            checking
-                            accuracy and allowing the user to change the time.</p>
+                            and useRef brings the textbox into focus once the game starts. A future update to this app
+                            would be
+                            to check
+                            accuracy alongside time and allowing the user to change the countdown time.</p>
                         <div class="preview-source">
 
                             <p> <a href="https://maryums.github.io/speedtyping" class=" hvr-float"> Live
@@ -215,7 +216,7 @@
 
                     <div class="portfolio-item">
                         <div class="portfolio-image"> <img src="assets/images/tenzies.png"></div>
-                        <p>Utilizes React with modern functional components and hooks to injects various states into
+                        <p>Utilizes React with functional components and hooks to injects various states into
                             functional components to dynamically render a version of the dice game, Tenzies. Roll the
                             "dice" and win when once all die values match. Users "hold" the state/value of the die and
                             are able to add scores to the Leaderboard, which is saved to LocalStorage. </p>
@@ -235,9 +236,9 @@
                     <div class="portfolio-item">
                         <div class="portfolio-image"> <img src="assets/images/weather.png"></div>
                         <p>Implements the OpenWeatherMap API and React framework to render current weather conditions
-                            when user searches by city. Inside the useEffect function, we use axios, javascript library,
-                            to access the API which lets us parse the JSON payload into current weather data that can be
-                            set as state using useState. </p>
+                            when user searches by city. Inside useEffect, Axios accesses the API and automatically
+                            parses the data from JSON into a JS object, which is used to set the current weather state
+                            using the useState hook. </p>
                         <div class="preview-source">
 
                             <p> <a href="https://maryums.github.io/react-weather-deploy" class=" hvr-float"> Live
