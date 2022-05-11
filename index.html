@@ -180,40 +180,13 @@
                 <div class="portfolio-container">
 
                     <div class="portfolio-item">
-                        <div class="portfolio-image"> <img src="assets/images/tenzies.png"></div>
-                        <p>This React app utilizes functional components and hooks to set up a dynamically
-                            rendered version of the dice game, Tenzies. Roll the "dice" and attempt to match
-                            all ten die to the same value. The user "holds" the value of their dice and rolls until they
-                            win. Attempts are displayed and added the Leaderboard, which is saved to LocalStorage </p>
-                        <div class="preview-source">
-
-                            <p> <a href="https://maryums.github.io/tenzies" class=" hvr-float"> Live
-                                    Preview </a> / <a href="https://github.com/maryums/tenzies"
-                                    class=" hvr-float">Source Code</a></p>
-
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
-                        <div class="portfolio-image"> <img src="assets/images/todos.png"></div>
-                        <p> This React app uses functional components and the useState and useEffect hooks to
-                            dynamically render a to-do list, which is then saved to LocalStorage. The items on the list
-                            can be checked as completed or
-                            deleted. The list can also be filtered to show only compeleted or uncompleted items. </p>
-                        <div class="preview-source">
-
-                            <p> <a href="https://maryums.github.io/notesapp" class=" hvr-float"> Live
-                                    Preview </a> / <a href="https://github.com/maryums/notesapp"
-                                    class=" hvr-float">Source Code</a></p>
-
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item">
                         <div class="portfolio-image"> <img src="assets/images/speedtyping.png"></div>
-                        <p>This React app utilizes hooks to create a fun app to test the users typing speed. UseState
-                            and useEffect are used alongside vanilla javascript in order to capture how many words were
-                            typed as setTimeout counts down the seconds. An update to this app would be checking
+                        <p>Implements React hooks such as useState, useEffect, useRef, and useContext to create a fun
+                            app to test the users typing speed. UseState
+                            and useEffect are used alongside vanilla javascript in order to capture how many words are
+                            typed as setTimeout counts down the seconds. A light/dark mode is created with useContext
+                            and useRef brings the textbook to focus once the game starts. An update to this app would be
+                            checking
                             accuracy and allowing the user to change the time.</p>
                         <div class="preview-source">
 
@@ -224,11 +197,47 @@
                         </div>
                     </div>
 
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"> <img src="assets/images/todos.png"></div>
+                        <p> Utilizes React with modern functional components and hooks such as useState & useEffect
+                            to dynamically render a to-do list, which uses useEffect to save to LocalStorage. Items on
+                            the list can be checked as completed or deleted and also be filtered to display items marked
+                            compeleted or uncompleted. </p>
+                        <div class="preview-source">
+
+                            <p> <a href="https://maryums.github.io/notesapp" class=" hvr-float"> Live
+                                    Preview </a> / <a href="https://github.com/maryums/notesapp"
+                                    class=" hvr-float">Source Code</a></p>
+
+                        </div>
+                    </div>
+
+
+                    <div class="portfolio-item">
+                        <div class="portfolio-image"> <img src="assets/images/tenzies.png"></div>
+                        <p>Utilizes React with modern functional components and hooks to injects various states into
+                            functional components to dynamically render a version of the dice game, Tenzies. Roll the
+                            "dice" and win when once all die values match. Users "hold" the state/value of the die and
+                            are able to add scores to the Leaderboard, which is saved to LocalStorage. </p>
+                        <div class="preview-source">
+
+                            <p> <a href="https://maryums.github.io/tenzies" class=" hvr-float"> Live
+                                    Preview </a> / <a href="https://github.com/maryums/tenzies"
+                                    class=" hvr-float">Source Code</a></p>
+
+                        </div>
+                    </div>
+
+
+
+
 
                     <div class="portfolio-item">
                         <div class="portfolio-image"> <img src="assets/images/weather.png"></div>
-                        <p>This React weather app pulls from the OpenWeatherMap API and searches by city name
-                            to retrieve and display current weather conditions. </p>
+                        <p>Implements the OpenWeatherMap API and React framework to render current weather conditions
+                            when user searches by city. Inside the useEffect function, we use axios, javascript library,
+                            to access the API which lets us parse the JSON payload into current weather data that can be
+                            set as state using useState. </p>
                         <div class="preview-source">
 
                             <p> <a href="https://maryums.github.io/react-weather-deploy" class=" hvr-float"> Live
@@ -254,11 +263,10 @@
 
                     <div class="portfolio-item">
                         <div class="portfolio-image"> <img src="assets/images/bookshelf.png"></div>
-                        <p> This web app makes use of the Javascript object constructor and for each new book that is
-                            added,
-                            it will instantiate an object invoking the constructor function in conjunction with the
-                            <i>new</i>
-                            operator. The books are then added to an array and dynamically displayed on the DOM.
+                        <p> Applies Javascript ES6 class syntax to create new book objects. Users input book details
+                            such as title, author, read status and rating. The book object is pushed to an array and
+                            dynamically displayed on the DOM through vanilla JS. The data is saved to local storage and
+                            retrieved and set on refresh of the page.
                         </p>
 
                         <div class="preview-source">
@@ -289,7 +297,7 @@
 
                     <div class="portfolio-item">
                         <div class="portfolio-image"> <img src="assets/images/biryani-rani.png"></div>
-                        <p>This React app uses TailwindCSS to create a minimalistic, clean business landing page. The
+                        <p>Utilizes React and Tailwind CSS to create a minimalistic, clean business landing page. The
                             website is mobile-first and fully responsive. </p>
 
                         <div class="preview-source">
