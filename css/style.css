@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -12,12 +12,12 @@ body, html {
 }
 
 a:link, a:visited {
-  color: #283D3D;
+  color: #0a0d0d;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f3edea;
+  background-color: #fff;
   line-height: 1.7;
 }
 
@@ -27,14 +27,14 @@ h1 {
 }
 
 .title {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Crimson Pro', serif;
   text-align: left;
 }
 
 header {
   height: 100vh;
-  color: #f3edea;
-  background-color: #283D3D;
+  color: #fff;
+  background-color: #0a0d0d;
   background: url(../assets/images/forest.jpeg) no-repeat;
   background-size: cover;
 }
@@ -124,7 +124,7 @@ header .hero .typewriter {
 }
 
 header .hero h1 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Crimson Pro', serif;
   font-size: 4.5rem;
   text-align: center;
 }
